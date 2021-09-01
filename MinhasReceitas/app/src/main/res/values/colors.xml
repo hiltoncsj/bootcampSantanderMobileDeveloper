@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_azul_acinzentado_claro">#777A88</color>
+    <color name="color_azul_acinzentado_escuro">#464653</color>
+    <color name="color_vinho_escuro">#582B3E</color>
+    <color name="color_rosa">#BA455B</color>
+    <color name="color_laranja_claro">#CDBCB1</color>
+    <color name="color_azul_claro">#D2D6D7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
