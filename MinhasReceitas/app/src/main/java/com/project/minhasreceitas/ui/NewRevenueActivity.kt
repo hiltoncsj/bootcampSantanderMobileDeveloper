@@ -15,9 +15,10 @@ import com.project.minhasreceitas.extensions.text
 import com.project.minhasreceitas.model.Revenue
 import java.util.*
 
-private lateinit var binding: ActivityNewRevenueBinding
-
 class NewRevenueActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityNewRevenueBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityNewRevenueBinding.inflate(layoutInflater)
@@ -29,9 +30,9 @@ class NewRevenueActivity : AppCompatActivity() {
                 binding.tilTitle.text = it.title
                 binding.tilDate.text = it.date
                 binding.tilHour.text = it.time
+                binding.ettmMultitext.text = it.descricao
             }
         }
-
         insertListener()
     }
 
@@ -56,9 +57,7 @@ class NewRevenueActivity : AppCompatActivity() {
             timerPicker.show(supportFragmentManager,"TIME_PICKER_TAG")
         }
 
-        binding.btnCancel.setOnClickListener {
-            finish()
-        }
+        binding.btnCancel.setOnClickListener { finish() }
 
         binding.btnNewRevenue.setOnClickListener {
             val revenue = Revenue(
@@ -74,7 +73,5 @@ class NewRevenueActivity : AppCompatActivity() {
         }
     }
 
-    companion object {
-        const val REVENUE_ID = "revenue_id"
-    }
+    companion object { const val REVENUE_ID = "revenue_id" }
 }

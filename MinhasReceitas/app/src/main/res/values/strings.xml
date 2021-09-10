@@ -2,7 +2,10 @@
     <string name="app_name">Minhas Receitas</string>
     <string name="nova_receita">Nova Receita</string>
     <string name="titulo_receita">Título</string>
-    <string name="cancel">Cancel</string>
+    <string name="cancel">Cancelar</string>
     <string name="description_new_revenue">Add Receita</string>
     <string name="empty_state">Ops! Você não possui\nnenhuma receita</string>
+    <string name="horario">Horário</string>
+    <string name="data">Data</string>
+    <string name="descricao">Descrição</string>
 </resources>

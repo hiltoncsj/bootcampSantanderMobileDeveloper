@@ -14,12 +14,8 @@ object RevenueDataSource {
             list.remove(revenue)
             list.add(revenue)
         }
-
     }
 
     fun findById(revenueId: Int) = list.find { it.id == revenueId }
-
-    fun deleteRevenue(revenue : Revenue) {
-        list.remove(revenue)
-    }
+    fun deleteRevenue(revenue : Revenue) { list.remove(revenue) }
 }

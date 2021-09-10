@@ -10,17 +10,13 @@ data class Revenue(
         val id : Int = 0
 ) {
     override fun equals(other: Any?): Boolean {
-        if (this === other) return true
+        if (this == other) return true
         if (javaClass != other?.javaClass) return false
 
         other as Revenue
-
         if (id != other.id) return false
-
         return true
     }
 
-    override fun hashCode(): Int {
-        return id
-    }
+    override fun hashCode(): Int { return id }
 }

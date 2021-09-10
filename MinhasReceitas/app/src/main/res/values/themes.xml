@@ -3,11 +3,11 @@
     <style name="Theme.MinhasReceitas" parent="Theme.MaterialComponents.Light.NoActionBar">
        <item name="colorPrimaryDark">@color/color_azul_acinzentado_escuro</item>
        <item name="colorPrimary">@color/color_azul_acinzentado_claro</item>
-       <item name="android:textColorPrimary">@color/color_azul_claro</item>
+       <item name="android:textColorPrimary">@color/color_vinho_escuro</item>
        <item name="colorAccent">@color/color_vinho_escuro</item>
        <item name="android:windowBackground">@color/white</item>
        <item name="android:navigationBarColor">@color/color_azul_acinzentado_escuro</item>
-       <item name="floatingActionButtonStyle">@color/color_azul_acinzentado_escuro</item>
+       <item name="floatingActionButtonStyle">@color/color_rosa</item>
 
        <item name="colorSecondary">@color/color_rosa</item>
        <item name="colorOnSecondary">@color/color_laranja_claro</item>
